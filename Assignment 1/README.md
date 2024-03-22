@@ -26,13 +26,24 @@ python -m pip install virtualenv
 python -m virtualenv venv --python=python3.10
 ```
 
-3. Activate the virtual environment created (For MacOS)
+3. Activate the virtual environment created
 
+For MacOS:
 ```console
 source venv/bin/activate
+```
+
+For Windows:
+```console
+venv/Scripts/activate
 ```
 
 4. Install all dependencies on the requirements.txt file
 ```console
 python -m pip install -r requirements.txt
+```
+
+5. Check if ffmpeg is installed on your virtual environment (required to record the video)
+```console
+ffmpeg -version
 ```
