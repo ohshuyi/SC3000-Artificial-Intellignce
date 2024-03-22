@@ -6,10 +6,10 @@
 ```
 ~
 ├── video                   # Video folder for task 3
-├── CartPole.ipynb          # Notebook for Cartpole Assignment
-├── requirements.txt        # Dependencies required
+├── CartPole-v1.ipynb       # Notebook for Cartpole Assignment
+├── README.md               
 ├── assignment1.docx        # Assignment 1 Description
-└── README.md
+└── requirements.txt        # Dependencies required
 ```
 
 
