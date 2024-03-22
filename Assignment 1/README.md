@@ -28,9 +28,9 @@ python -m virtualenv venv --python=python3.10
 
 3. Activate the virtual environment created
 
-   ```console
-      venv/scripts/activate
-   ```
+```console
+venv/scripts/activate
+```
 
 4. Install all dependencies on the requirements.txt file
 ```console
